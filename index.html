@@ -15,7 +15,7 @@
                zoomType: 'x'
             }; 
             var title = {
-               text: 'USD to EUR exchange rate from 2006 through 2008'   
+               text: 'World Coffee Production'   
             };
             var subtitle = {
                text: document.ontouchstart === undefined ?
@@ -24,14 +24,20 @@
             };
             var xAxis = {
                type: 'datetime',
-               minRange: 14 * 24 * 3600000 // fourteen days
-              
+               minRange: 14 * 24 * 3600000 ,// fourteen days
+               title: {
+            text: 'Data:USDA PS&D',
+            align: 'high',
+            offset: -20,
+            rotation: 0,
+            x: -10
+        }
                  
             
             };
             var yAxis = {
                title: {
-                  text: 'Exchange rate'
+                  text: 'tonnes'
                }
             };
             var legend = {
@@ -62,7 +68,7 @@
             var series = [{
                type: 'area',
                name: 'USD to EUR',
-               pointInterval: 24 * 3600 * 1000 * 365, // mills in a year. 
+               pointInterval: 35 * 3600 * 1000 * 365, // mills in a year. 
                pointStart: Date.UTC(1993, 0, 1),
                data:[
                  5577540,5822520,6227160,6227160,6227160,6227160,6849840,7033020,6697500,7637520,6676920,7316760,7072980,8043000,9481080,9603240,9702240,9519060,10470000,10147800
