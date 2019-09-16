@@ -1,21 +1,21 @@
-#Data Visualization 
+# Data Visualization 
 
-##By: Rehema Faith 
+## By: Rehema Faith 
 
-##Description 
+## Description 
 
-###This is a visualization that plots the World's Coffee Production over time.The units are in tonnes, and the y-axis should be scaled to in millions of tonnes for readability.
-The data was obtained from USDA PS&D
+### This is a visualization that plots the World's Coffee Production over time.The units are in tonnes, and the y-axis should be scaled to in millions of tonnes for readability.The data was obtained from USDA PS&D
 
-##Technologies used
 
-*HTML5
+## Technologies used
 
-*Highcharts
+* HTML5
 
-##Known Bugs 
+* Highcharts
 
-*None 
+## Known Bugs 
 
-##License 
+* None 
+
+## License 
 
